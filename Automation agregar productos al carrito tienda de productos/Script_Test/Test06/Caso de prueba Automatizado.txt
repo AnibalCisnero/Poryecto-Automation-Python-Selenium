@@ -1,0 +1,1 @@
+06. Probar que al hacel click en el boton carro el sistema reediriga al usuario al carrito

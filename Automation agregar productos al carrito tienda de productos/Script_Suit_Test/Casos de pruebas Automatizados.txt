@@ -1,0 +1,11 @@
+01. Probar que el usuario pueda agregar un prodcuto al carrito
+
+02. Probar que el usuario pueda agregar varios productos al carrito
+
+03. Probar que el usuario pueda agregar mas de dos veces el mismo producto
+
+04. Probar que al hacer click en Añadir a la cesta el sistema agrege el producto
+
+05. Verificar que al agregar el producto el sistema arroje un Pop- Up con el siguiente mensaje (Product added) y la opcion aceptar
+
+06. Probar que al hacel click en el boton carro el sistema reediriga al usuario al carrito

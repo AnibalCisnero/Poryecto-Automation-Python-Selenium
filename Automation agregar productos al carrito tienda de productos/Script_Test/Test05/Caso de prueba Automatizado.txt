@@ -1,0 +1,1 @@
+05. Verificar que al agregar el producto el sistema arroje un Pop- Up con el siguiente mensaje (Product added) y la opcion aceptar

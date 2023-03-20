@@ -1,0 +1,1 @@
+04. Probar que al hacer click en Añadir a la cesta el sistema agrege el producto

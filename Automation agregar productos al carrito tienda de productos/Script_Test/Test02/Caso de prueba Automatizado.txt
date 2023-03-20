@@ -1,0 +1,1 @@
+02. Probar que el usuario pueda agregar varios productos al carrito
