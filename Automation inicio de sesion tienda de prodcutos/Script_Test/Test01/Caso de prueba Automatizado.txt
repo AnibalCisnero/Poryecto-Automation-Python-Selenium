@@ -1,0 +1,1 @@
+01. Probar el inicio de sesión con credenciales válidas y comprobar que el sistema valida correctamente las credenciales y redirige al usuario a su cuenta.

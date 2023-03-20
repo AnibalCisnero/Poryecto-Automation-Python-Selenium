@@ -1,0 +1,1 @@
+02. Probar el inicio de sesión con credenciales inválidas y comprobar que el sistema muestra una notificación de error y solicita al usuario ingresar las credenciales nuevamente.

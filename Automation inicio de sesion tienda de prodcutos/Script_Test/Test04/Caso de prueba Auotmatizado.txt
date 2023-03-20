@@ -1,0 +1,1 @@
+04. Probar el inicio de sesión con una contraseña vacía y comprobar que se muestra una notificación de error.

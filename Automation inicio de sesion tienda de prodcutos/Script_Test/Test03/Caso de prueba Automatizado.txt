@@ -1,0 +1,1 @@
+03. Probar el inicio de sesión con un nombre de usuario vacío y comprobar que se muestra una notificación de error.
