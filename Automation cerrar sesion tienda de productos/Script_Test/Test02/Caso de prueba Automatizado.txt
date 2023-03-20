@@ -1,0 +1,1 @@
+02. Comprobar que al cerrar sesion reediriga al usuario a la pagina de inicio de sesion

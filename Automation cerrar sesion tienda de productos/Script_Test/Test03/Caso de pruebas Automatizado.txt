@@ -1,0 +1,1 @@
+03. Comprobar que el sistema cierre la sesion cuando detecte que el usuario cierra la pestaña de la aplicacion

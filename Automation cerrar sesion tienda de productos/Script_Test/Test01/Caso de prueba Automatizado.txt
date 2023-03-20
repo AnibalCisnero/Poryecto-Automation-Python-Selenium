@@ -1,0 +1,1 @@
+01. Comprobar que la pagina cargue correctamente la opcion de cerrar sesion

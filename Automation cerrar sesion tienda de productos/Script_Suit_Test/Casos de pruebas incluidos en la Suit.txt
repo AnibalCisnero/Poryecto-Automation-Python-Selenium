@@ -1,0 +1,7 @@
+01. Comprobar que la pagina cargue correctamente la opcion de cerrar sesion
+
+02. Comprobar que al cerrar sesion reediriga al usuario a la pagina de inicio de sesion
+
+03. Comprobar que el sistema cierre la sesion cuando detecte que el usuario cierra la pestaña de la aplicacion
+
+04. Comprobar que el usaurio sea reedirigido a la pagina de inicio de sesion caundo habra la pagina nuevamente
