@@ -1,0 +1,2 @@
+
+06. Probar el registro con usuario y contraseña ya registrados y comprobar que se meustre un mensaje de usuario existente

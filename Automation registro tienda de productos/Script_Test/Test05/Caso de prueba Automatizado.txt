@@ -1,0 +1,1 @@
+05. Probar el registro con una contraseña ya existente y comprobar que se muestre una notificacion de contraseña en uso

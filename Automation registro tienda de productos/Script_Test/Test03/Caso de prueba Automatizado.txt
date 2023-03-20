@@ -1,0 +1,1 @@
+03. Verificar la presencia de los botón "Sign up" y “Close“ en el formulario de registro.

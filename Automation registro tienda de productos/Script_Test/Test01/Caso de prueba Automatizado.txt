@@ -1,0 +1,1 @@
+01. Comprobar que el formulario de registro aparece correctamente en la página de registro con los campos “Username” y “Password:”

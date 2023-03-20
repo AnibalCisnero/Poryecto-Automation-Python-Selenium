@@ -1,0 +1,2 @@
+
+02. Validar que el usuario puede ingresar su nombre de usuario y contraseña deseados en los campos correspondientes.

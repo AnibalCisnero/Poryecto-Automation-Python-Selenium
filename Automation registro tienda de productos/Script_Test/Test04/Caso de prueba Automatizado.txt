@@ -1,0 +1,2 @@
+
+04. Probar el registro con un nombre de usuario ya existente y comprobar que se muestra una notificación de nombre de usuario en uso.

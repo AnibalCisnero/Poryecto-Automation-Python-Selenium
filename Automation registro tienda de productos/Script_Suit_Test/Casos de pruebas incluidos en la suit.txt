@@ -1,0 +1,13 @@
+01. Comprobar que el formulario de registro aparece correctamente en la página de registro con los campos “Username” y “Password:”
+
+02. Validar que el usuario puede ingresar su nombre de usuario y contraseña deseados en los campos correspondientes.
+
+03. Verificar la presencia de los botón "Sign up" y “Close“ en el formulario de registro.
+
+04. Probar el registro con un nombre de usuario ya existente y comprobar que se muestra una notificación de nombre de usuario en uso.
+
+05. Probar el registro con usuario y contraseña ya registrados y comprobar que se meustre un mensaje de usuario existente
+
+06. Probar el registro con una contraseña ya existente y comprobar que se muestre una notificacion de contraseña en uso
+
+07. Probar el registro con credenciales validas (Regsitro Exitoso)
