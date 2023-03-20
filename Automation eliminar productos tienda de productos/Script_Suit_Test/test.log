@@ -1,0 +1,744 @@
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 32, in test_Capturar_lista_Productos
+    product = self.driver.find_element(By.XPATH, f"//a[contains(text(),'{laptop_name}')]")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sony vaio i5')]"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00DCDCE3]
+	(No symbol) [0x00D639D1]
+	(No symbol) [0x00C74DA8]
+	(No symbol) [0x00CA019F]
+	(No symbol) [0x00CA03AB]
+	(No symbol) [0x00CCEE62]
+	(No symbol) [0x00CBAF14]
+	(No symbol) [0x00CCD57C]
+	(No symbol) [0x00CBACC6]
+	(No symbol) [0x00C96F68]
+	(No symbol) [0x00C980CD]
+	GetHandleVerifier [0x01043832+2506274]
+	GetHandleVerifier [0x01079794+2727300]
+	GetHandleVerifier [0x0107E36C+2746716]
+	GetHandleVerifier [0x00E76690+617600]
+	(No symbol) [0x00D6C712]
+	(No symbol) [0x00D71FF8]
+	(No symbol) [0x00D720DB]
+	(No symbol) [0x00D7C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 36, in test_Capturar_lista_Productos
+    add_to_cart = self.driver.find_element(By.XPATH, "//a[@class='btn btn-success btn-lg']")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn btn-success btn-lg']"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 32, in test_Capturar_lista_Productos
+    product = self.driver.find_element(By.XPATH, f"//a[contains(text(),'{laptop_name}')]")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sony vaio i5')]"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 32, in test_Capturar_lista_Productos
+    product = self.driver.find_element(By.XPATH, f"//a[contains(text(),'{laptop_name}')]")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Sony vaio i5')]"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 31, in test_Capturar_lista_Productos
+    product1 = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[1]/div/a/img')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a/img"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 31, in test_Capturar_lista_Productos
+    product1 = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[1]/div/a/img')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a/img"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 31, in test_Capturar_lista_Productos
+    product1 = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[1]/div/a/img')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a/img"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 31, in test_Capturar_lista_Productos
+    product1.click()
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4C70]
+	(No symbol) [0x007210D6]
+	(No symbol) [0x00718D05]
+	(No symbol) [0x0073AECC]
+	(No symbol) [0x00718726]
+	(No symbol) [0x0073B224]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 34, in test_Capturar_lista_Productos
+    add_to_cart = self.driver.find_element(By.XPATH, "//a[@class='btn btn-success btn-lg']")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn btn-success btn-lg']"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0084DCE3]
+	(No symbol) [0x007E39D1]
+	(No symbol) [0x006F4DA8]
+	(No symbol) [0x0072019F]
+	(No symbol) [0x007203AB]
+	(No symbol) [0x0074EE62]
+	(No symbol) [0x0073AF14]
+	(No symbol) [0x0074D57C]
+	(No symbol) [0x0073ACC6]
+	(No symbol) [0x00716F68]
+	(No symbol) [0x007180CD]
+	GetHandleVerifier [0x00AC3832+2506274]
+	GetHandleVerifier [0x00AF9794+2727300]
+	GetHandleVerifier [0x00AFE36C+2746716]
+	GetHandleVerifier [0x008F6690+617600]
+	(No symbol) [0x007EC712]
+	(No symbol) [0x007F1FF8]
+	(No symbol) [0x007F20DB]
+	(No symbol) [0x007FC63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 34, in test_Eliminar_Productos
+    producto_mon = self.driver.find_element(By.XPATH,'//*[@id="tbodyid"]/div[1div/a')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00EADCE3]
+	(No symbol) [0x00E439D1]
+	(No symbol) [0x00D54DA8]
+	(No symbol) [0x00D8019F]
+	(No symbol) [0x00D803AB]
+	(No symbol) [0x00DAEE62]
+	(No symbol) [0x00D9AF14]
+	(No symbol) [0x00DAD57C]
+	(No symbol) [0x00D9ACC6]
+	(No symbol) [0x00D76F68]
+	(No symbol) [0x00D780CD]
+	GetHandleVerifier [0x01123832+2506274]
+	GetHandleVerifier [0x01159794+2727300]
+	GetHandleVerifier [0x0115E36C+2746716]
+	GetHandleVerifier [0x00F56690+617600]
+	(No symbol) [0x00E4C712]
+	(No symbol) [0x00E51FF8]
+	(No symbol) [0x00E520DB]
+	(No symbol) [0x00E5C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 49, in test_Eliminar_Productos
+    alert = self.driver.switch_to.alert#Capturo el alert
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 57, in alert
+    _ = alert.text
+        ^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\common\alert.py", line 66, in text
+    return self.driver.execute(Command.W3C_GET_ALERT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoAlertPresentException: Message: no such alert
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00EADCE3]
+	(No symbol) [0x00E439D1]
+	(No symbol) [0x00D54C70]
+	(No symbol) [0x00D4E25F]
+	(No symbol) [0x00D66014]
+	(No symbol) [0x00D9AF44]
+	(No symbol) [0x00D65EDD]
+	(No symbol) [0x00D9ACC6]
+	(No symbol) [0x00D76F68]
+	(No symbol) [0x00D780CD]
+	GetHandleVerifier [0x01123832+2506274]
+	GetHandleVerifier [0x01159794+2727300]
+	GetHandleVerifier [0x0115E36C+2746716]
+	GetHandleVerifier [0x00F56690+617600]
+	(No symbol) [0x00E4C712]
+	(No symbol) [0x00E51FF8]
+	(No symbol) [0x00E520DB]
+	(No symbol) [0x00E5C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 35, in test_Eliminar_Productos
+    producto_mon = self.driver.find_element(By.XPATH,'//*[@id="tbodyid"]/div[1]/div/a')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 35, in test_Eliminar_Productos
+    producto_mon = self.driver.find_element(By.XPATH,'//*[@id="tbodyid"]/div[1]/div/a')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 45, in test_Eliminar_Productos
+    button_carrito = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[2]/div/a')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[2]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 45, in test_Eliminar_Productos
+    button_carrito = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[2]/div/a')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[2]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 45, in test_Eliminar_Productos
+    button_carrito = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[2]/div/a')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[2]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 45, in test_Eliminar_Productos
+    button_carrito = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[2]/div/a')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F3D0D3]
+	(No symbol) [0x00F9EA8B]
+	(No symbol) [0x00FAD093]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 35, in test_Eliminar_Productos
+    producto_mon = self.driver.find_element(By.XPATH,'//*[@id="tbodyid"]/div[1]/div/a')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[1]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+
+ERROR:root:Error en la prueba 'test_Capturar_lista_Productos
+Traceback (most recent call last):
+  File "C:\Users\54373\Desktop\Automation Observar y eliminar Productos Tienda de productos\Suit_Observar_Eliminar_Productos.py", line 45, in test_Eliminar_Productos
+    button_carrito = self.driver.find_element(By.XPATH, '//*[@id="tbodyid"]/div[2]/div/a')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\54373\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbodyid"]/div[2]/div/a"}
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x010ADCE3]
+	(No symbol) [0x010439D1]
+	(No symbol) [0x00F54DA8]
+	(No symbol) [0x00F8019F]
+	(No symbol) [0x00F803AB]
+	(No symbol) [0x00FAEE62]
+	(No symbol) [0x00F9AF14]
+	(No symbol) [0x00FAD57C]
+	(No symbol) [0x00F9ACC6]
+	(No symbol) [0x00F76F68]
+	(No symbol) [0x00F780CD]
+	GetHandleVerifier [0x01323832+2506274]
+	GetHandleVerifier [0x01359794+2727300]
+	GetHandleVerifier [0x0135E36C+2746716]
+	GetHandleVerifier [0x01156690+617600]
+	(No symbol) [0x0104C712]
+	(No symbol) [0x01051FF8]
+	(No symbol) [0x010520DB]
+	(No symbol) [0x0105C63B]
+	BaseThreadInitThunk [0x76E06BD9+25]
+	RtlGetFullPathName_UEx [0x776B8FD2+1218]
+	RtlGetFullPathName_UEx [0x776B8F9D+1165]
+

@@ -1,0 +1,1 @@
+02. Probar que el usuario pueda eliminar varios productos al mismo tiempo

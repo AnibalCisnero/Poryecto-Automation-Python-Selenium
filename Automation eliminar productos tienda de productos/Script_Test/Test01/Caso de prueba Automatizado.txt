@@ -1,0 +1,1 @@
+01. Probar que el usuario pueda elimiar un producto

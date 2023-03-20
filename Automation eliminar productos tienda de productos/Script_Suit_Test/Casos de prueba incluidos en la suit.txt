@@ -1,0 +1,3 @@
+01. Probar que el usuario pueda elimiar un producto
+
+02. Probar que el usuario pueda eliminar varios productos al mismo tiempo
