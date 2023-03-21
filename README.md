@@ -11,4 +11,5 @@ En resumen, he utilizado esta p√°gina web para realizar pruebas de automatizaci√
 
 
 Orden de las carpetas:
-Cada carpeta cuenta con subcarpetas nombradas test y enumeradas donde se alojan reportes y capturas de pantalla, caso de prueba automatizado, ademas del script de prueba
+Cada carpeta cuenta con dos subcarpetas una de la suit donde se aloja los reportes, capturas de pantalla y casos de pruebas automatizados, ademas del script de la suit
+La subcarpeta test aloja subcarpetas nombras test que alojan las prubas separadas de manera individual dentro de la misma se encuentran reportes, capturas de pantalla y  caso de prueba automatizado, ademas del script de prueba
